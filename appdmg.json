@@ -1,0 +1,10 @@
+{
+  "title": "SvgSprite",
+  "icon": "./img/SvgSprite.icns",
+  "background": "./img/dmg.png",
+  "icon-size" : 120,
+  "contents": [
+    { "x": 485, "y": 300, "type": "link", "path": "/Applications" },
+    { "x": 185, "y": 300, "type": "file", "path": "./release/SvgSprite-darwin-x64/SvgSprite.app" }
+  ]
+}

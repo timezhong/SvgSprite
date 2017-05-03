@@ -1,0 +1,35 @@
+{
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "appdmg": "appdmg appdmg.json SvgSprite-1.0.dmg",
+    "build-all": "electron-packager . --all --overwrite",
+    "build-mac": "electron-packager ./ SvgSprite --platform=darwin --arch=x64 --icon=./img/SvgSprite.icns --overwrite --out ./release ",
+    "build-win64": "electron-packager ./ SvgSprite --platform=win32 --arch=x64 --icon=./img/SvgSprite.ico --overwrite --out ./release",
+    "build-win32": "electron-packager ./ SvgSprite --platform=win32 --arch=ia32 --icon=./img/SvgSprite.ico --overwrite --out ./release"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "drag-drop": "^2.12.1",
+    "electron": "^1.4.13",
+    "electron-packager": "^8.4.0",
+    "glob": "^7.1.1",
+    "jQuery": "^1.7.4",
+    "mkdirp": "^0.5.1",
+    "svg-sprite": "^1.3.6",
+    "svg-sprite-wx": "^1.3.6",
+    "svgexport": "^0.3.2"
+  }
+}

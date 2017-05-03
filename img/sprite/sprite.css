@@ -1,0 +1,16 @@
+.icon {
+	background: url("sprite-11f854a4.svg") no-repeat;
+}
+
+.icon-check {
+	background-position: 0 0;
+	width: 256rpx;
+	height: 256rpx;
+}
+
+.icon-check-act {
+	background-position: 100% 0;
+	width: 256rpx;
+	height: 256rpx;
+}
+
