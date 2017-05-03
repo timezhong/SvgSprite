@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-# svgsprite
-svgsprite
-=======
+
 # SvgSprite
 
 **自动生成svg雪碧图，支持微信小程序rpx单位**
@@ -20,4 +17,4 @@ svgsprite
 **暂时支持mac版**
 
 [mac版](https://github.com/timezhong/SvgSprite/raw/master/SvgSprite-1.0.dmg)
->>>>>>> commit file
+
